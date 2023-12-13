@@ -81,6 +81,18 @@ body {
   align-items: center;
   justify-content: center;
   width: 6rem;
+  font-weight: bold;
+}
+
+.about .link {
+  color: black;
+  background-color: #ffc8dd;
+  border: 0.2rem solid #ffc8dd;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6rem;
 }
 
 
@@ -97,31 +109,42 @@ body {
 
   .itm-1 {
 
-    background-color: rgb(170, 93, 184);
+    background-color: #cdb4db;
   }
   .itm-2 {
 
-    background-color: rgb(218, 143, 205);
+    background-color: #ffafcc;
   
   }
   .itm-3 {
-    background-color: rgb(224, 137, 173);
+    background-color: #ffc8dd;
   
   }
   .itm-4 {
 
-    background-color: rgb(142, 205, 224);
+    background-color: #bde0fe;
   
   }
   .itm-5 {
 
-    background-color: rgb(142, 195, 224);
+    background-color: #bde0fe;
   
   }
   .itm-6 {
 
-    background-color: rgb(170, 93, 184);
+    background-color: #cdb4db;
   
+  }
+  .skills li {
+ 
+    border-radius: 0.5rem;
+  
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    font-weight: bold;
+    padding-left: 1rem;
   }
   .about {
     display: flex;
@@ -178,14 +201,14 @@ body {
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 3;
-    background-color: rgb(170, 93, 184);
+    background-color: #cdb4db;
   }
   .itm-2 {
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
-    background-color: rgb(218, 143, 205);
+    background-color: #ffafcc;
   
   }
   .itm-3 {
@@ -193,7 +216,7 @@ body {
     grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 2;
-    background-color: rgb(224, 137, 173);
+    background-color: #ffc8dd;
   
   }
   .itm-4 {
@@ -201,7 +224,7 @@ body {
     grid-column-end: 7;
     grid-row-start: 1;
     grid-row-end: 2;
-    background-color: rgb(142, 205, 224);
+    background-color: #bde0fe;
   
   }
   .itm-5 {
@@ -209,7 +232,7 @@ body {
     grid-column-end: 5;
     grid-row-start: 2;
     grid-row-end: 3;
-    background-color: rgb(142, 195, 224);
+    background-color: #bde0fe;
   
   }
   .itm-6 {
@@ -217,8 +240,20 @@ body {
     grid-column-end: 7;
     grid-row-start: 2;
     grid-row-end: 3;
-    background-color: rgb(170, 93, 184);
+    background-color: #cdb4db;
   
+  }
+  .skills li {
+ 
+    border-radius: 0.5rem;
+  
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    font-weight: bold;
+    padding-left: 1rem;
+    padding-bottom: 0.2rem;
   }
   .about {
     display: flex;
@@ -284,27 +319,6 @@ header {
 
 
 
-.skills li {
- 
-  border-radius: 0.5rem;
-
-  margin: 0.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  font-weight: bold;
-  padding-left: 1rem;
-  padding-bottom: 0.2rem;
-}
-
-
-
-
-
-
-
-
-
 .work{
   display: flex;
   flex-direction: column;
@@ -321,10 +335,11 @@ header {
 }
 
 .work .tags p {
-  border: 0.1rem solid rgb(130, 102, 133);
-  background-color: rgb(130, 102, 133);
+  border: 0.1rem solid #ffafcc;
+  background-color: #ffafcc;
   border-radius: 0.2rem;
   margin-right: 0.5rem;
+  font-weight: bold;
 }
 
 .work .content img{
@@ -364,7 +379,7 @@ header {
 }
 
 .contact {
-  background-color: rgb(192, 100, 225);
+  background-color: #cdb4db;
   padding: 2rem;
   border-radius: 1rem;
 }
